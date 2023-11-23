@@ -1,0 +1,82 @@
+/* App.css */
+
+body {
+  margin-top: 10px;
+  font-family: 'Arial', sans-serif;
+}
+
+.full-screen {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f4f4f4;
+}
+
+.comic-generator {
+  max-width: 800px;
+  width: 100%;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+h1 {
+  margin-top: 50px;
+  text-align: center;
+  color: #333;
+}
+
+img {
+  display: block;
+  margin: 20px auto;
+  max-width: 100%;
+  height: auto;
+}
+
+.comic-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.panel {
+  margin-bottom: 20px;
+}
+
+textarea {
+  padding: 10px;
+  font-size: 16px;
+  resize: vertical;
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.comic-display {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.comic-panel {
+  margin: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+img.comic-image {
+  max-width: 100%;
+  height: auto;
+}
